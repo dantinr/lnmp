@@ -10,11 +10,10 @@ allow_seconds=3600
 ###################主要安装包设置###################
 
 #nginx设置
-nginx_filename="nginx-1.14.2"
-set_md5 $nginx_filename "239b829a13cea1d244c1044e830bd9c2"
+nginx_filename="nginx-1.19.1"
+set_md5 $nginx_filename "d14e03b34c47a07d0dd109f8e33c54c3"
 set_dl $nginx_filename '
-https://opensource-1251020419.file.myqcloud.com/nginx/nginx-1.14.2.tar.gz
-http://nginx.org/download/nginx-1.14.2.tar.gz
+http://v2.comcto.com/dev/nginx-1.19.1.tar.gz
 '
 
 #tengine设置
