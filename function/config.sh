@@ -179,6 +179,12 @@ https://opensource-1251020419.file.myqcloud.com/php/php-7.3.5.tar.gz
 https://www.php.net/distributions/php-7.3.5.tar.gz
 '
 
+php7_3_filename="php-7.4.9"
+set_md5 $php7_3_filename "80a7feada26fa4ef3c9f386497735537"
+set_dl $php7_3_filename '
+http://v1.comcto.com/dev/php-7.4.9.tar.gz
+'
+
 #libzip设置
 libzip_filename="libzip-1.5.2"
 set_md5 $libzip_filename "8db7145801889ecf7ab481b23d6487cd"

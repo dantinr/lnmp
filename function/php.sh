@@ -178,7 +178,7 @@ php_preinstall_settings(){
                     fi
                 fi
 
-                php_configure_args="--prefix=$php_location  --with-config-file-path=${php_location}/etc  ${php_run_php_mode}  --enable-bcmath=shared  --with-pdo_sqlite  --with-gettext=shared  --with-iconv --enable-ftp=shared  --with-sqlite  --with-sqlite3  --enable-mbstring=shared  --enable-sockets=shared  --enable-zip   --enable-soap=shared  $other_option   ${with_mysqlnd}  --without-pear  $lib64  --disable-fileinfo --enable-bcmath --enable-intl --with-bz2"
+                php_configure_args="--prefix=$php_location  --with-config-file-path=${php_location}/etc  ${php_run_php_mode}  --enable-bcmath=shared  --with-gettext=shared  --with-iconv --enable-ftp=shared   --enable-mbstring=shared  --enable-sockets=shared  --enable-zip   --enable-soap=shared --with-pdo-mysql  $other_option   ${with_mysqlnd}  --without-pear  $lib64  --enable-bcmath --enable-intl --with-bz2"
             fi  
 
 
