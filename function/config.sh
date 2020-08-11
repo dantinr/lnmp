@@ -117,13 +117,6 @@ http://sourceforge.mirrorservice.org/b/bo/boost/boost/1.66.0/boost_1_66_0.tar.gz
 '
 
 #php设置
-php5_2_filename="php-5.2.17"
-set_md5 $php5_2_filename "04d321d5aeb9d3a051233dbd24220ef1"
-set_dl $php5_2_filename '
-http://dl-cn.centos.bz/protect/10268950/ezhttp/php-5.2.17.tar.gz
-http://dl-us.centos.bz/ezhttp/php-5.2.17.tar.gz
-http://museum.php.net/php5/php-5.2.17.tar.gz
-'
 
 php5_3_filename="php-5.3.29"
 set_md5 $php5_3_filename "ebfa96ea636b2a7ece71e78ad116a338"
@@ -179,9 +172,9 @@ https://opensource-1251020419.file.myqcloud.com/php/php-7.3.5.tar.gz
 https://www.php.net/distributions/php-7.3.5.tar.gz
 '
 
-php7_3_filename="php-7.4.9"
-set_md5 $php7_3_filename "80a7feada26fa4ef3c9f386497735537"
-set_dl $php7_3_filename '
+php7_4_filename="php-7.4.9"
+set_md5 $php7_4_filename "80a7feada26fa4ef3c9f386497735537"
+set_dl $php7_4_filename '
 http://v1.comcto.com/dev/php-7.4.9.tar.gz
 '
 
@@ -899,7 +892,7 @@ nginx_modules_arr=(${lua_nginx_module_filename} ${nginx_concat_module_filename} 
             ${ngx_substitutions_filter_module_filename} ngx_stream_core_module ${nginx_upstream_check_module_filename} ${nginx_stream_upsync_module_filename} do_not_install)
 apache_arr=( ${apache2_2_filename} ${apache2_4_filename} custom_version do_not_install)
 mysql_arr=( ${mysql5_1_filename} ${mysql5_5_filename} ${mysql5_6_filename} ${mysql5_7_filename} ${mysql8_0_filename} libmysqlclient18 custom_version do_not_install)
-php_arr=( ${php5_2_filename} ${php5_3_filename} ${php5_4_filename} ${php5_5_filename} ${php5_6_filename} ${php7_1_filename} ${php7_2_filename} ${php7_3_filename} custom_version do_not_install)
+php_arr=( ${php5_2_filename} ${php5_3_filename} ${php5_4_filename} ${php5_5_filename} ${php5_6_filename} ${php7_1_filename} ${php7_2_filename} ${php7_3_filename} ${php7_4_filename} custom_version do_not_install)
 php_mode_arr=(with_apache  with_fastcgi)
 php_modules_arr=( ${ZendOptimizer_filename} ${ZendGuardLoader_filename} ${xcache_filename} ${eaccelerator_filename}
                  ${php_imagemagick_filename} ${ionCube_filename} ${php_memcache_filename} ${php_memcached_filename} ${php_redis_filename} 
