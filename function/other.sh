@@ -351,7 +351,7 @@ last_confirm(){
 	echo "##############################################################"
 	echo
 	#最终确认是否安装
-	yes_or_no "Are you ready to configure your Linux?[Y/n]" "echo 'start to configure linux...'" "clear ; pre_setting" y
+	yes_or_no "Are you ready to configure your Linux1111?[Y/n]" "echo 'start to configure linux...'" "clear ; pre_setting" y
 
 	#检测端口或socket是否被占用
 	echo "start to check if port is occupied..."
