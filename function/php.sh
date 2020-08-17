@@ -527,6 +527,7 @@ if [ "$php_mode" == "with_fastcgi" ];then
         cat >> $php_location/etc/php.ini <<EOF
 [opcache]
 zend_extension=opcache.so
+opcache.enable=0
 opcache.memory_consumption=128
 opcache.interned_strings_buffer=8
 opcache.max_accelerated_files=4000

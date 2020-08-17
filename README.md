@@ -1,8 +1,11 @@
+### 基于  [ezhttp](https://github.com/centos-bz/ezhttp) 修改
+
 安装
 ============
+
 ```bash
 git clone https://github.com/dantinr/lnmp.git
-cd ezhttp-master
+cd lnmp
 chmod +x start.sh
 ```
 Interactive installation
